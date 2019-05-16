@@ -6,6 +6,9 @@ import android.os.IBinder;
 
 public class BluetoothService extends Service {
     public BluetoothService() {
+        int a = 0;
+        int b = 1;
+        int c = a + b;
     }
 
     @Override
