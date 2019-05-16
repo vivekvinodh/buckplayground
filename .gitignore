@@ -11,3 +11,17 @@
 /build
 /captures
 .externalNativeBuild
+
+\.buckd/
+
+\.okbuck/
+
+buck-out/
+
+\.buckconfig
+
+\.watchmanconfig
+
+BUCK
+
+buckw
