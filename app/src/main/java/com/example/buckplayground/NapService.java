@@ -21,6 +21,8 @@ public class NapService extends IntentService {
     private static final String EXTRA_PARAM1 = "com.example.buckplayground.extra.PARAM1";
     private static final String EXTRA_PARAM2 = "com.example.buckplayground.extra.PARAM2";
 
+    int x = 0;
+
     public NapService() {
         super("NapService");
     }
