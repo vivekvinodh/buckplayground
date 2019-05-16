@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/vivekvinodh/AndroidStudioProjects/BuckPlayground/debug.keystore')
+            storePassword 'android'
+            keyAlias = 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.buckplayground"
@@ -9,11 +17,16 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            signingConfig signingConfigs.debug
         }
     }
 }
