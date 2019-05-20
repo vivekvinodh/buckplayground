@@ -6,6 +6,7 @@ import android.os.IBinder;
 
 public class BetterNapService extends Service {
     public BetterNapService() {
+        //hey you a better nap
     }
 
     @Override
