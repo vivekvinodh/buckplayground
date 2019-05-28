@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name=".BetterNapService"
+            android:name=".DeepSleep"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".BetterNapService"
+            android:enabled="true"
+            android:exported="true" />
         <service
             android:name=".NapService"
             android:exported="false" />
