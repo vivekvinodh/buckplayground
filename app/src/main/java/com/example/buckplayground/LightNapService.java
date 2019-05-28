@@ -4,10 +4,8 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 
-public class BetterNapService extends Service {
-    public BetterNapService() {
-        //hey you a better nap
-        //releasing light nap
+public class LightNapService extends Service {
+    public LightNapService() {
     }
 
     @Override
