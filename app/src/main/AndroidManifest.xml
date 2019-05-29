@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name=".LightNapService"
+            android:name=".LoudNapService"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".QuietNapService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".LightNapService"
+            android:enabled="true"
+            android:exported="true" />
         <service
             android:name=".DeepSleep"
             android:enabled="true"
