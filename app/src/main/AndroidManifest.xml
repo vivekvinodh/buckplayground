@@ -14,6 +14,10 @@
             android:enabled="true"
             android:exported="true"></service>
         <service
+            android:name=".QuietNapService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
             android:name=".LightNapService"
             android:enabled="true"
             android:exported="true" />
