@@ -6,6 +6,7 @@ import android.os.IBinder;
 
 public class LoudNapService extends Service {
     public LoudNapService() {
+        //Feature 1
     }
 
     @Override
