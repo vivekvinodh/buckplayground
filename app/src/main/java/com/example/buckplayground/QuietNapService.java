@@ -7,6 +7,7 @@ import android.os.IBinder;
 public class QuietNapService extends Service {
     public QuietNapService() {
         //feature 1
+        //Release Quiet Nap
     }
 
     @Override
