@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name=".LoudNapService"
+            android:name=".GreatNap"
             android:enabled="true"
             android:exported="true"></service>
         <service
+            android:name=".LoudNapService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
             android:name=".QuietNapService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
         <service
             android:name=".LightNapService"
             android:enabled="true"
