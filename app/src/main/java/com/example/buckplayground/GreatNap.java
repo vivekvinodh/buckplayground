@@ -7,6 +7,7 @@ import android.os.IBinder;
 public class GreatNap extends Service {
     public GreatNap() {
         //create a great nap
+        //release great nap is ready
     }
 
     @Override
